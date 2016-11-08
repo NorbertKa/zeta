@@ -1,0 +1,21 @@
+.border-all {
+    border: 1px solid black;
+    margin: 0.1rem;
+}
+
+.no-margins {
+    margin-bottom: 0;
+}
+
+.zeta-color {
+    color: #97392B;
+}
+
+.zeta-padding {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.zeta-symbol {
+    font-size: 15rem;
+}

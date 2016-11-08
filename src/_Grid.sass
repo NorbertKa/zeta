@@ -1,0 +1,330 @@
+$phone: "only screen and (min-width: 320px)";
+$tablet: "only screen and (min-width: 48rem)";
+$desktop: "only screen and (min-width: 77rem)";
+
+.container
+  margin: 0 auto
+  max-width: 114rem
+  padding: 0 2.0rem
+  position: relative
+  width: 100%
+
+.row
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  width: 100%
+
+  &.direction-row
+    flex-direction: row
+  &.direction-row-reverse
+    flex-direction: row-reverse
+  &.direction-column
+    flex-direction: column
+  &.direction-column-reverse
+   flex-direction: column-reverse
+
+  &.wrap-nowrap
+    flex-wrap: nowrap
+  &.wrap-wrap
+    flex-wrap: wrap
+  &.wrap-wrap-reverse
+    flex-wrap: wrap-reverse
+
+  &.justify-start
+    justify-content: flex-start
+  &.justify-end
+    justify-content: flex-end
+  &.justify-center
+    justify-content: center
+  &.justify-between
+    justify-content: space-between
+  &.justify-around
+    justify-content: space-around
+
+  &.align-start
+    align-items: flex-start
+  &.align-end
+    align-items: flex-end
+  &.align-center
+    align-items: center
+  &.align-stretch
+    align-items: stretch
+  &.align-baseline
+    align-items: baseline
+
+.padding-min
+  padding: 0.5rem
+.padding-norm
+  padding: 1rem
+.padding-max
+  padding: 2rem
+
+.col-1-12,
+.col-2-12,
+.col-3-12,
+.col-4-12,
+.col-5-12,
+.col-6-12,
+.col-7-12,
+.col-8-12,
+.col-9-12,
+.col-10-12,
+.col-11-12,
+.col-12-12
+.col-1-12
+  display: block
+  width: 100%
+
+.col-1-12
+  flex: 0 0 8.333%
+  max-width: 8.333%
+.col-2-12
+  flex: 0 0 16.66%
+  max-width: 16.66%
+.col-3-12
+  flex: 0 0 25%
+  max-width: 25%
+.col-4-12
+  flex: 0 0 33.33%
+  max-width: 33.33%
+.col-5-12
+  flex: 0 0 41.66%
+  max-width: 41.66%
+.col-6-12
+  flex: 0 0 50%
+  max-width: 50%
+.col-7-12
+  flex: 0 0 58.33%
+  max-width: 58.33%
+.col-8-12
+  flex: 0 0 66.66%
+  max-width: 66.66%
+.col-9-12
+  flex: 0 0 75%
+  max-width: 75%
+.col-10-12
+  flex: 0 0 83.33%
+  max-width: 83.33%
+.col-11-12
+  flex: 0 0 91.66%
+  max-width: 91.66%
+.col-12-12
+  flex: 0 0 100%
+  max-width: 100%
+
+@media screen and (min-width: 319px)
+  .col-sm-1-12,
+  .col-sm-2-12,
+  .col-sm-3-12,
+  .col-sm-4-12,
+  .col-sm-5-12,
+  .col-sm-6-12,
+  .col-sm-7-12,
+  .col-sm-8-12,
+  .col-sm-9-12,
+  .col-sm-10-12,
+  .col-sm-11-12,
+  .col-sm-12-12
+  .col-sm-1-12
+    display: block
+    width: 100%
+
+  .col-sm-1-12
+    flex: 0 0 8.333%
+    max-width: 8.333%
+  .col-sm-2-12
+    flex: 0 0 16.66%
+    max-width: 16.66%
+  .col-sm-3-12
+    flex: 0 0 25%
+    max-width: 25%
+  .col-sm-4-12
+    flex: 0 0 33.33%
+    max-width: 33.33%
+  .col-sm-5-12
+    flex: 0 0 41.66%
+    max-width: 41.66%
+  .col-sm-6-12
+    flex: 0 0 50%
+    max-width: 50%
+  .col-sm-7-12
+    flex: 0 0 58.33%
+    max-width: 58.33%
+  .col-sm-8-12
+    flex: 0 0 66.66%
+    max-width: 66.66%
+  .col-sm-9-12
+    flex: 0 0 75%
+    max-width: 75%
+  .col-sm-10-12
+    flex: 0 0 83.33%
+    max-width: 83.33%
+  .col-sm-11-12
+    flex: 0 0 91.66%
+    max-width: 91.66%
+  .col-sm-12-12
+    flex: 0 0 100%
+    max-width: 100%
+
+@media screen and (min-width: 769px)
+  .col-md-1-12,
+  .col-md-2-12,
+  .col-md-3-12,
+  .col-md-4-12,
+  .col-md-5-12,
+  .col-md-6-12,
+  .col-md-7-12,
+  .col-md-8-12,
+  .col-md-9-12,
+  .col-md-10-12,
+  .col-md-11-12,
+  .col-md-12-12
+  .col-md-1-12
+    display: block
+    width: 100%
+
+  .col-md-1-12
+    flex: 0 0 8.333%
+    max-width: 8.333%
+  .col-md-2-12
+    flex: 0 0 16.66%
+    max-width: 16.66%
+  .col-md-3-12
+    flex: 0 0 25%
+    max-width: 25%
+  .col-md-4-12
+    flex: 0 0 33.33%
+    max-width: 33.33%
+  .col-md-5-12
+    flex: 0 0 41.66%
+    max-width: 41.66%
+  .col-md-6-12
+    flex: 0 0 50%
+    max-width: 50%
+  .col-md-7-12
+    flex: 0 0 58.33%
+    max-width: 58.33%
+  .col-md-8-12
+    flex: 0 0 66.66%
+    max-width: 66.66%
+  .col-md-9-12
+    flex: 0 0 75%
+    max-width: 75%
+  .col-md-10-12
+    flex: 0 0 83.33%
+    max-width: 83.33%
+  .col-md-11-12
+    flex: 0 0 91.66%
+    max-width: 91.66%
+  .col-md-12-12
+    flex: 0 0 100%
+    max-width: 100%
+
+@media screen and (min-width: 1025px)
+  .col-lg-1-12,
+  .col-lg-2-12,
+  .col-lg-3-12,
+  .col-lg-4-12,
+  .col-lg-5-12,
+  .col-lg-6-12,
+  .col-lg-7-12,
+  .col-lg-8-12,
+  .col-lg-9-12,
+  .col-lg-10-12,
+  .col-lg-11-12,
+  .col-lg-12-12
+  .col-lg-1-12
+    display: block
+    width: 100%
+
+  .col-lg-1-12
+    flex: 0 0 8.333%
+    max-width: 8.333%
+  .col-lg-2-12
+    flex: 0 0 16.66%
+    max-width: 16.66%
+  .col-lg-3-12
+    flex: 0 0 25%
+    max-width: 25%
+  .col-lg-4-12
+    flex: 0 0 33.33%
+    max-width: 33.33%
+  .col-lg-5-12
+    flex: 0 0 41.66%
+    max-width: 41.66%
+  .col-lg-6-12
+    flex: 0 0 50%
+    max-width: 50%
+  .col-lg-7-12
+    flex: 0 0 58.33%
+    max-width: 58.33%
+  .col-lg-8-12
+    flex: 0 0 66.66%
+    max-width: 66.66%
+  .col-lg-9-12
+    flex: 0 0 75%
+    max-width: 75%
+  .col-lg-10-12
+    flex: 0 0 83.33%
+    max-width: 83.33%
+  .col-lg-11-12
+    flex: 0 0 91.66%
+    max-width: 91.66%
+  .col-lg-12-12
+    flex: 0 0 100%
+    max-width: 100%
+
+@media screen and (min-width: 1441px)
+  .col-xl-1-12,
+  .col-xl-2-12,
+  .col-xl-3-12,
+  .col-xl-4-12,
+  .col-xl-5-12,
+  .col-xl-6-12,
+  .col-xl-7-12,
+  .col-xl-8-12,
+  .col-xl-9-12,
+  .col-xl-10-12,
+  .col-xl-11-12,
+  .col-xl-12-12
+  .col-xl-1-12
+    display: block
+    width: 100%
+
+  .col-xl-1-12
+    flex: 0 0 8.333%
+    max-width: 8.333%
+  .col-xl-2-12
+    flex: 0 0 16.66%
+    max-width: 16.66%
+  .col-xl-3-12
+    flex: 0 0 25%
+    max-width: 25%
+  .col-xl-4-12
+    flex: 0 0 33.33%
+    max-width: 33.33%
+  .col-xl-5-12
+    flex: 0 0 41.66%
+    max-width: 41.66%
+  .col-xl-6-12
+    flex: 0 0 50%
+    max-width: 50%
+  .col-xl-7-12
+    flex: 0 0 58.33%
+    max-width: 58.33%
+  .col-xl-8-12
+    flex: 0 0 66.66%
+    max-width: 66.66%
+  .col-xl-9-12
+    flex: 0 0 75%
+    max-width: 75%
+  .col-xl-10-12
+    flex: 0 0 83.33%
+    max-width: 83.33%
+  .col-xl-11-12
+    flex: 0 0 91.66%
+    max-width: 91.66%
+  .col-xl-12-12
+    flex: 0 0 100%
+    max-width: 100%
