@@ -28,25 +28,13 @@
 .text-align-r
   text-align: right
 
-.bg-color-primary
-  background-color: $color-primary
-
-.bg-color-secondary
-  background-color: $color-secondary
-
-.bg-color-tertiary
-  background-color: $color-tertiary
-
-.bg-color-quaternary
-  background-color: $color-quaternary
-
-.bg-color-quinary
-  background-color: $color-quinary
-
 .reverse-color
   color: $color-background
   &>*
     color: $color-background
+
+.bg-color-text
+ background-color: $color-text
 
 .no-margin
   margin: 0 0 0 0
@@ -56,3 +44,13 @@
 
 .text-stroke
   text-shadow: -1px -1px 0 $color-text,1px -1px 0 $color-text,-1px 1px 0 $color-text,1px 1px 0 $color-text
+
+.wordwrap-unset
+  overflow-wrap: unset
+  &>*
+    overflow-wrap: unset
+
+.text-align-v-c
+  display: flex
+  align-items: center
+  justify-content: center

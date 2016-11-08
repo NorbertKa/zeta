@@ -19,3 +19,19 @@
 .zeta-symbol {
     font-size: 15rem;
 }
+
+.code {
+  overflow-x: auto;
+  background-color: #ecf0f1;
+  border-left: 0.3rem solid #242221;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+  .code > p {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .code > pre {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0;
+    margin-bottom: 0; }
