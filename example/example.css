@@ -7,17 +7,56 @@
     margin-bottom: 0;
 }
 
+button {
+    cursor: pointer;
+    background-color: #FCFDFD;
+    margin-bottom: 0;
+    margin-bottom: 0.2em;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.14);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.14);
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button > * {
+    color: #97392B;
+    font-weight: 300;
+    width: 6em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
 .zeta-color {
     color: #97392B;
 }
 
 .zeta-padding {
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
 }
 
 .zeta-symbol {
     font-size: 15rem;
+}
+
+.background {
+    min-height: 100vh;
+    min-width: auto;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 43%, rgba(254,254,254,0) 58%, rgba(252,253,253,1) 100%), url(background.png) center center no-repeat;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 43%,rgba(254,254,254,0) 58%,rgba(252,253,253,1) 100%), url(background.png) center center no-repeat;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 43%,rgba(254,254,254,0) 58%,rgba(252,253,253,1) 100%), url(background.png) center center no-repeat;
+    background-size: cover;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: table;
 }
 
 .code {
